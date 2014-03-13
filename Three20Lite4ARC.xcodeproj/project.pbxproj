@@ -74,6 +74,7 @@
 		EC434FBA18C70EE500D8CBE9 /* TTDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = EC434FB918C70EE500D8CBE9 /* TTDebug.m */; };
 		EC434FBE18C70F8300D8CBE9 /* TTMarkupStripper.m in Sources */ = {isa = PBXBuildFile; fileRef = EC434FBD18C70F8300D8CBE9 /* TTMarkupStripper.m */; };
 		EC434FC218C70FB000D8CBE9 /* TTEntityTables.m in Sources */ = {isa = PBXBuildFile; fileRef = EC434FC118C70FB000D8CBE9 /* TTEntityTables.m */; };
+		EC58EBEF18D1432D00198FD7 /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC58EBEE18D1432D00198FD7 /* Three20.bundle */; };
 		EC9B043A18CD8924001CFFE2 /* TTCollectionViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9B043918CD8924001CFFE2 /* TTCollectionViewDelegate.m */; };
 		ECCA441918C9A76600EEF78D /* TTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA441818C9A76600EEF78D /* TTCollectionViewController.m */; };
 		ECCA441C18C9A8BA00EEF78D /* TTCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA441B18C9A8BA00EEF78D /* TTCollectionViewDataSource.m */; };
@@ -241,6 +242,7 @@
 		EC434FBD18C70F8300D8CBE9 /* TTMarkupStripper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTMarkupStripper.m; sourceTree = "<group>"; };
 		EC434FC018C70FB000D8CBE9 /* TTEntityTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTEntityTables.h; sourceTree = "<group>"; };
 		EC434FC118C70FB000D8CBE9 /* TTEntityTables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTEntityTables.m; sourceTree = "<group>"; };
+		EC58EBEE18D1432D00198FD7 /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Three20.bundle; sourceTree = "<group>"; };
 		EC9B043818CD8924001CFFE2 /* TTCollectionViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCollectionViewDelegate.h; sourceTree = "<group>"; };
 		EC9B043918CD8924001CFFE2 /* TTCollectionViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCollectionViewDelegate.m; sourceTree = "<group>"; };
 		ECCA441718C9A76600EEF78D /* TTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCollectionViewController.h; sourceTree = "<group>"; };
@@ -450,6 +452,7 @@
 		EC434F5B18C7041A00D8CBE9 /* Three20Lite4ARC */ = {
 			isa = PBXGroup;
 			children = (
+				EC58EBED18D1432700198FD7 /* Resources */,
 				EC36165D18C7FB6F00611A7B /* UI */,
 				EC434FAF18C7073500D8CBE9 /* Network */,
 				EC434F7F18C7048000D8CBE9 /* Core */,
@@ -590,6 +593,14 @@
 			path = EntityTables;
 			sourceTree = "<group>";
 		};
+		EC58EBED18D1432700198FD7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC58EBEE18D1432D00198FD7 /* Three20.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		ECCA441618C9A74300EEF78D /* Collection Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -679,6 +690,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC58EBEF18D1432D00198FD7 /* Three20.bundle in Resources */,
 				EC434F7418C7041A00D8CBE9 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

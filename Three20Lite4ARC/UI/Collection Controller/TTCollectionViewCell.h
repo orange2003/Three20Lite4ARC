@@ -6,8 +6,11 @@
 //  Copyright (c) 2014年 高飞. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "TTTableLinkedItem.h"
 
 @interface TTCollectionViewCell : UICollectionViewCell
+{
+    TTTableLinkedItem* _item;
+}
 @property (nonatomic, strong) id object;
 @end
