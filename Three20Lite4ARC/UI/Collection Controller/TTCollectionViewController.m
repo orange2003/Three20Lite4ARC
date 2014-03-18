@@ -380,6 +380,7 @@
 {
     if (nil == _collectionView) {
         _collectionView = [[UICollectionView alloc] initWithFrame:self.view.bounds collectionViewLayout:[self createCollectionViewLayout]];
+        _collectionView.alwaysBounceVertical = YES;
         _collectionView.autoresizingMask = UIViewAutoresizingFlexibleWidth
         | UIViewAutoresizingFlexibleHeight;
         _collectionView.collectionViewLayout = [self createCollectionViewLayout];

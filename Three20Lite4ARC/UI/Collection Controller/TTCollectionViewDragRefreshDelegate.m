@@ -8,6 +8,7 @@
 
 #import "TTCollectionViewDragRefreshDelegate.h"
 #import "TTModel.h"
+#import "TTCollectionViewController.h"
 @implementation TTCollectionViewDragRefreshDelegate
 
 

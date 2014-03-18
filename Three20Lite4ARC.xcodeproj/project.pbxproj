@@ -75,6 +75,8 @@
 		EC434FBE18C70F8300D8CBE9 /* TTMarkupStripper.m in Sources */ = {isa = PBXBuildFile; fileRef = EC434FBD18C70F8300D8CBE9 /* TTMarkupStripper.m */; };
 		EC434FC218C70FB000D8CBE9 /* TTEntityTables.m in Sources */ = {isa = PBXBuildFile; fileRef = EC434FC118C70FB000D8CBE9 /* TTEntityTables.m */; };
 		EC58EBEF18D1432D00198FD7 /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EC58EBEE18D1432D00198FD7 /* Three20.bundle */; };
+		EC58EBF718D198BE00198FD7 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC58EBF618D198BE00198FD7 /* EGORefreshTableHeaderView.m */; };
+		EC58EBFA18D198CF00198FD7 /* TTCollectionViewDragRefreshDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC58EBF918D198CF00198FD7 /* TTCollectionViewDragRefreshDelegate.m */; };
 		EC9B043A18CD8924001CFFE2 /* TTCollectionViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC9B043918CD8924001CFFE2 /* TTCollectionViewDelegate.m */; };
 		ECCA441918C9A76600EEF78D /* TTCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA441818C9A76600EEF78D /* TTCollectionViewController.m */; };
 		ECCA441C18C9A8BA00EEF78D /* TTCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA441B18C9A8BA00EEF78D /* TTCollectionViewDataSource.m */; };
@@ -243,6 +245,10 @@
 		EC434FC018C70FB000D8CBE9 /* TTEntityTables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTEntityTables.h; sourceTree = "<group>"; };
 		EC434FC118C70FB000D8CBE9 /* TTEntityTables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTEntityTables.m; sourceTree = "<group>"; };
 		EC58EBEE18D1432D00198FD7 /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Three20.bundle; sourceTree = "<group>"; };
+		EC58EBF518D198BE00198FD7 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		EC58EBF618D198BE00198FD7 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		EC58EBF818D198CF00198FD7 /* TTCollectionViewDragRefreshDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCollectionViewDragRefreshDelegate.h; sourceTree = "<group>"; };
+		EC58EBF918D198CF00198FD7 /* TTCollectionViewDragRefreshDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCollectionViewDragRefreshDelegate.m; sourceTree = "<group>"; };
 		EC9B043818CD8924001CFFE2 /* TTCollectionViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCollectionViewDelegate.h; sourceTree = "<group>"; };
 		EC9B043918CD8924001CFFE2 /* TTCollectionViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTCollectionViewDelegate.m; sourceTree = "<group>"; };
 		ECCA441718C9A76600EEF78D /* TTCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTCollectionViewController.h; sourceTree = "<group>"; };
@@ -452,6 +458,7 @@
 		EC434F5B18C7041A00D8CBE9 /* Three20Lite4ARC */ = {
 			isa = PBXGroup;
 			children = (
+				EC58EBF318D198AD00198FD7 /* Vendors */,
 				EC58EBED18D1432700198FD7 /* Resources */,
 				EC36165D18C7FB6F00611A7B /* UI */,
 				EC434FAF18C7073500D8CBE9 /* Network */,
@@ -601,6 +608,23 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		EC58EBF318D198AD00198FD7 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				EC58EBF418D198B800198FD7 /* EGOTableViewPullRefresh */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		EC58EBF418D198B800198FD7 /* EGOTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				EC58EBF518D198BE00198FD7 /* EGORefreshTableHeaderView.h */,
+				EC58EBF618D198BE00198FD7 /* EGORefreshTableHeaderView.m */,
+			);
+			path = EGOTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
 		ECCA441618C9A74300EEF78D /* Collection Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -612,6 +636,8 @@
 				ECCA441E18C9B96B00EEF78D /* TTCollectionViewCell.m */,
 				EC9B043818CD8924001CFFE2 /* TTCollectionViewDelegate.h */,
 				EC9B043918CD8924001CFFE2 /* TTCollectionViewDelegate.m */,
+				EC58EBF818D198CF00198FD7 /* TTCollectionViewDragRefreshDelegate.h */,
+				EC58EBF918D198CF00198FD7 /* TTCollectionViewDragRefreshDelegate.m */,
 				EC13AC1918CDC3C300BC17B6 /* TTCollectionViewListDataSource.h */,
 				EC13AC1A18CDC3C300BC17B6 /* TTCollectionViewListDataSource.m */,
 				EC13AC1C18CEA18500BC17B6 /* TTCollectionViewSectionedDataSource.h */,
@@ -720,6 +746,7 @@
 				EC36167C18C7FC0200611A7B /* UIToolbarAdditions.m in Sources */,
 				EC3616F218C8544800611A7B /* TTTableViewController.m in Sources */,
 				EC36171918C8544800611A7B /* TTTableFlushViewCell.m in Sources */,
+				EC58EBFA18D198CF00198FD7 /* TTCollectionViewDragRefreshDelegate.m in Sources */,
 				EC434FAE18C7050500D8CBE9 /* TTGlobalCoreRects.m in Sources */,
 				EC434F9118C704AE00D8CBE9 /* NSArrayAdditions.m in Sources */,
 				EC36170718C8544800611A7B /* TTTableTextItem.m in Sources */,
@@ -746,6 +773,7 @@
 				EC36170A18C8544800611A7B /* TTTableLinkedItem.m in Sources */,
 				EC434F9418C704AE00D8CBE9 /* NSMutableArrayAdditions.m in Sources */,
 				EC3616FA18C8544800611A7B /* TTTableViewPlainVarHeightDelegate.m in Sources */,
+				EC58EBF718D198BE00198FD7 /* EGORefreshTableHeaderView.m in Sources */,
 				EC434FAC18C7050500D8CBE9 /* TTGlobalCoreLocale.m in Sources */,
 				EC434FC218C70FB000D8CBE9 /* TTEntityTables.m in Sources */,
 				EC36168C18C846F000611A7B /* UIFontAdditions.m in Sources */,
