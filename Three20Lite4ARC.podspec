@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "GaoFei" => "gaofei2003@gmail.com" }
   s.source       = { :git => "https://github.com/orange2003/Three20Lite4ARC.git", :tag => "0.0.2" }
   s.platform     = :ios, '5.1'
-  s.source_files = 'Three20Lite4ARC/*.{h,m}'
+  s.source_files = 'Three20Lite4ARC','Three20Lite4ARC/**/*.{h,m}','*.{h,m}'
   s.resource     = "Three20Lite4ARC/Resources/Three20.bundle"
   s.requires_arc = true
 end
