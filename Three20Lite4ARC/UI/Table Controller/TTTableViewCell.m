@@ -46,7 +46,7 @@ const NSInteger kTableMessageTextLineCount = 2;
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 - (void)prepareForReuse
 {
-    self.object = nil;
+    //self.object = nil;
     self.textLabel.text = nil;
     self.detailTextLabel.text = nil;
     [super prepareForReuse];
