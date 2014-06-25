@@ -37,12 +37,11 @@
  * shouldn't be affixed the "Delegate" title.
  */
 @interface TTTableViewDelegate : NSObject <UITableViewDelegate> {
-    TTTableViewController* _controller;
     NSMutableDictionary* _headers;
 }
 
 - (id)initWithController:(TTTableViewController*)controller;
 
-@property (nonatomic, readonly) TTTableViewController* controller;
+@property (nonatomic,weak,readonly) TTTableViewController* controller;
 
 @end
