@@ -383,7 +383,7 @@
         _collectionView.alwaysBounceVertical = YES;
         _collectionView.autoresizingMask = UIViewAutoresizingFlexibleWidth
         | UIViewAutoresizingFlexibleHeight;
-        _collectionView.collectionViewLayout = [self createCollectionViewLayout];
+       // _collectionView.collectionViewLayout = [self createCollectionViewLayout];
         [self.view addSubview:_collectionView];
     }
     return _collectionView;
